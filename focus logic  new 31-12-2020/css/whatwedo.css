@@ -1,0 +1,297 @@
+
+
+
+
+h1 strong{
+  font-weight: 900;
+}
+h2{
+  ;
+  line-height: 20px;
+  margin:  0;
+}
+h3{
+font-size: 1.2em;
+font-weight: 900;
+}
+
+h5{
+  
+  font-weight: 700;
+  line-height: 20px;
+}
+p{
+font-family: 'Open Sans', sans-serif;
+}
+
+
+a{ 
+  text-decoration: none !important;
+  transition:all 0.3s linear;
+  -webkit-transition:all 0.3s linear;
+  -moz-transition:all 0.3s linear;
+  -ms-transition:all 0.3s linear;
+   -o-transition:all 0.3s linear;
+   color:#222;
+  
+}
+a:hover
+{
+    color:#000;
+}
+ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.text-capitalize
+{
+    text-transform: uppercase;
+}
+
+p.intro{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size:1.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+img
+{
+    max-width: 100%;
+}
+.relative
+{
+    position:relative;
+}
+.wrapper
+{
+    width:100%;
+    height:100%;
+    position:relative;
+    
+}
+
+.rightText
+{
+text-align:justify;
+}
+.leftText
+{
+  text-align:left;
+}
+.RightText
+{
+   text-align:right;
+}
+.top10
+{
+    margin-top:1.2em;
+}
+.top20
+{
+  margin-top:1.3em;
+}
+.top30
+{
+  margin-top:2em;
+}
+.top40
+{
+    margin-top:2.2em;
+}
+.gap
+{
+    width:100%;
+    height:2em;
+}
+.scroll-block {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+/*  TYPOGRAPHY
+------------------------------*/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/*  BUTTON
+------------------------------*/
+.btn{
+  padding: 12px 20px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+.btn.btn-color{
+  background-color: #fff;
+  border: 2px solid;
+  border-color: transparent;
+  color: #000;
+}
+.btn.btn-color:hover{
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+/*  PRELOADER
+------------------------------*/
+
+div.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background-color: #f7f7f7;
+    
+}
+
+
+@keyframes loader {
+    0%, 10%, 100% {
+        width: 60px;
+        height: 60px;
+    }
+    50% {
+        width: 120px;
+        height: 120px;
+        border-radius:50%;
+        background:#fff;
+        
+    }
+    
+    70% {
+       transform:rotate(-30deg);
+        
+    }
+}
+
+
+
+
+
+/*  APP-STYLE STARTS HERE
+------------------------------*/
+.mobile-app>.container
+{
+ padding:100px 0px;
+}
+
+app-section {
+    padding: 82px 0;
+}
+
+.app-heading h2 {
+    color: black;
+    padding-bottom: 60px;
+}
+
+.app-content .app-icon-box:first-child {
+    margin-top: 60px;
+}
+
+.app-icon-box {
+    display: table;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.app-icon {
+    display: table-cell;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.app-icon .icon {
+    width: 44px;
+
+}
+
+.app-icon-box h4 {
+    color: black;
+}
+
+.app-content {
+    display: table-cell;
+    padding-left: 30px;
+    vertical-align: top;
+    font-size: 14px;
+    color: black;
+}
+
+.app-content p {
+    font-size:0.9em;
+    color: black;
+    margin: 1em 0;
+}
+
+.app-content-phone {
+    display: table-cell;
+    padding-right: 30px;
+    vertical-align: top;
+    color: black;
+}
+
+.app-content-phone p {
+    font-size: 0.8em;
+    color:black;
+    margin: 1em 0;
+}
+
+.iphone-image {
+    margin: 2px 27px;
+}
+
+.mobile-app span i.fa
+{
+    width:90px;
+    height:90px;
+    background:#fff;
+    border-radius:50%;
+    box-shadow:2px 1px 3px 8px rgba(0,0,0,0.1);
+    -webkit-box-shadow:2px 1px 3px 8px rgba(0,0,0,0.1);
+   -moz-box-shadow:2px 1px 3px 8px rgba(0,0,0,0.1);
+    -ms-box-shadow:2px 1px 3px 8px rgba(0,0,0,0.1);
+       font-size:1.2em;
+       padding-top:20px;
+       transition:all 1s;
+       -webkit-transition:all 0.3s linear;
+       -moz-transition:all 0.3s linear;
+       -ms-transition:all 0.3s lnear;
+}
+.mobile-app span i.fa:hover,.app-icon-box:hover>.app-icon>span i.fa
+{
+    box-shadow:1px 2px 4px 10px rgba(0,0,0,0.3);
+}
+/* Features Section Agency */
+
+.app-section-agency {
+    padding: 80px 0 60px 0;
+}
+
+.app-section-agency .app-icon-box {
+    display: table;
+    margin-bottom: 0;
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
